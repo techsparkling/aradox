@@ -7,6 +7,8 @@ import React from "react";
   import KeyboardArrowRightIcon from '@mui/icons-material/KeyboardArrowRight';
     import Lottie from "lottie-react"
     import SwiperCore, { Autoplay } from 'swiper';
+ 
+
 import First from "../Images/1st.json"
 import Second from "../Images/10th.json"
     import 'swiper/css';
@@ -56,6 +58,7 @@ export default function Hero(){
       }}
   
       loop={true}
+      
       autoplay={{
         delay: 2500,
         disableOnInteraction: false,
@@ -183,7 +186,7 @@ How We Could Help
         </div>
            
     )
-
+    Swiper.use([Autoplay]);
 }
 
   
