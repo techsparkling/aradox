@@ -72,7 +72,7 @@ export default function Problem(){
         
            </div>
         <h1 className=" p-5 pl-0 text-[20px] pb-2 font-[600]"> Reaching the target audience
-Budget constraints</h1>
+</h1>
            
             </div>
             <div className=" flex gap-1 ">
